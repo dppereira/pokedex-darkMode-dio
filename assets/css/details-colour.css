@@ -1,0 +1,71 @@
+.normal {
+    background-image: radial-gradient(#a6a877 0%, transparent 25%, #a6a877 30%, transparent 80% );
+}
+
+.grass {
+    background-image: radial-gradient(#77c850 0%, transparent 25%, #77c850 30%, transparent 80% );
+}
+
+.fire {
+    background-image: radial-gradient(#ee7f30 0%, transparent 25%, #ee7f30 30%, transparent 80% );
+}
+
+.water {
+    background-image: radial-gradient(#678fee 0%, transparent 25%, #678fee 30%, transparent 80% );
+}
+
+.electric {
+    background-image: radial-gradient(#e5c02e 0%, transparent 25%, #e5c02e 30%, transparent 80% );
+}
+
+.ice {
+    background-image: radial-gradient(#98d5d7 0%, transparent 25%, #98d5d7 30%, transparent 80% );
+}
+
+.ground {
+    background-image: radial-gradient(#dfbf69 0%, transparent 25%, #dfbf69 30%, transparent 80% );
+}
+
+.flying {
+    background-image: radial-gradient(#a98ff0 0%, transparent 25%, #a98ff0 30%, transparent 80% );
+}
+
+.poison {
+    background-image: radial-gradient(#a040a0 0%, transparent 25%, #a040a0 30%, transparent 80% );
+}
+
+.fighting {
+    background-image: radial-gradient(#bf3029 0%, transparent 25%, #bf3029 30%, transparent 80% );
+}
+
+.psychic {
+    background-image: radial-gradient(#f65687 0%, transparent 25%, #f65687 30%, transparent 80% );
+}
+
+.dark {
+    background-image: radial-gradient(#725847 0%, transparent 25%, #725847 30%, transparent 80% );
+}
+
+.rock {
+    background-image: radial-gradient(#b8a137 0%, transparent 25%, #b8a137 30%, transparent 80% );
+}
+
+.bug {
+    background-image: radial-gradient(#a8b720 0%, transparent 25%, #a8b720 30%, transparent 80% );
+}
+
+.ghost {
+    background-image: radial-gradient(#6e5896 0%, transparent 25%, #6e5896 30%, transparent 80% );
+}
+
+.steel {
+    background-image: radial-gradient(#b9b7cf 0%, transparent 25%, #b9b7cf 30%, transparent 80% );
+}
+
+.dragon {
+    background-image: radial-gradient(#6f38f6 0%, transparent 25%, #6f38f6 30%, transparent 80% );
+}
+
+.fairy {
+    background-image: radial-gradient(#f9aec7 0%, transparent 25%, #f9aec7 30%, transparent 80% );
+}

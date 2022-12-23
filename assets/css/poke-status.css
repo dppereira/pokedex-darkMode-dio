@@ -1,0 +1,53 @@
+.content{
+    background-image: radial-gradient(#77c850 0%, transparent 25%, #77c850 30%, transparent 80% );
+}
+
+.content .pokeName {
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+}
+
+.pokemon .pokeImg {
+    align-self: center;
+    max-width: 75%;
+    height: 200px;
+    margin-bottom: 50px;
+}   
+
+.pokemon .pokeData {
+    background-color: white;
+    max-height: 50%;
+}
+
+.pagination button {
+    background-color: indigo;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    margin: 8.25rem 0;
+    font-size: .9rem;
+}
+
+
+
+ol {
+    display: block;
+    position: absolute;
+}
+
+li {
+    text-transform: capitalize;
+    list-style: none;
+    font-size:20px;
+  }
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: 600px;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
