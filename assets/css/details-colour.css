@@ -69,3 +69,75 @@
 .fairy {
     background-image: radial-gradient(#f9aec7 0%, transparent 25%, #f9aec7 30%, transparent 80% );
 }
+
+.normalType {
+    background-color: #a6a877;
+}
+
+.grassType {
+    background-color: #77c850;
+}
+
+.fireType {
+    background-color: #ee7f30;
+}
+
+.waterType {
+    background-color: #678fee;
+}
+
+.electricType {
+    background-color: #e5c02e;
+}
+
+.iceType {
+    background-color: #98d5d7;
+}
+
+.groundType {
+    background-color: #dfbf69;
+}
+
+.flyingType {
+    background-color: #a98ff0;
+}
+
+.poisonType {
+    background-color: #a040a0;
+}
+
+.fightingType {
+    background-color: #bf3029;
+}
+
+.psychicType {
+    background-color: #f65687;
+}
+
+.darkType {
+    background-color: #725847;
+}
+
+.rockType {
+    background-color: #b8a137;
+}
+
+.bugType {
+    background-color: #a8b720;
+}
+
+.ghostType {
+    background-color: #6e5896;
+}
+
+.steelType {
+    background-color: #b9b7cf;
+}
+
+.dragonType {
+    background-color: #6f38f6;
+}
+
+.fairyType {
+    background-color: #f9aec7;
+}

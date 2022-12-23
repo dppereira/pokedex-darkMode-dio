@@ -30,8 +30,6 @@
     font-size: .9rem;
 }
 
-
-
 ol {
     display: block;
     position: absolute;
@@ -42,6 +40,16 @@ li {
     list-style: none;
     font-size:20px;
   }
+
+.content .pokemon .types .type {
+    color: black;
+    padding: .2rem .5rem;
+    margin: .25rem 645px;
+    font-size: .9rem;
+    border-radius: 1rem;
+    filter: brightness(1.27);
+    text-align: center;
+}
 
 @media screen and (min-width: 992px) {
     .content {

@@ -1,6 +1,3 @@
-
-const pokeShow = {}
-
 const pokeData = document.getElementById('start')
 
 const params = new Proxy(new URLSearchParams(window.location.search), {
@@ -17,9 +14,9 @@ function pokemonToLi(pokemon) {
         <div class="pokemon">
             <img id="pokeImg" src="" alt="" class="pokeImg">
             <ol id="pokeData">
-            <li class='detailsList'>
-            <span>Types: ${pokemon.types}</span>
-            </li>
+            <ol class="types">
+                        ${pokemon.types.map((typeSlot) => `<li class="type ${typeSlot}Type"> ${typeSlot} </li>`).join('')}
+                    </ol>
             <li class='detailsList'>
             <span>Exp: ${pokemon.base_exp}</span>
             </li>
@@ -42,35 +39,6 @@ function pokemonToLi(pokemon) {
         </div>
 
             `
-}
-
-function pokeDetailsToPokemonModel(pokeDetails) {
-    const pokemon = new PokemonDetails()
-    pokemon.id_poke = pokeDetails.id
-    pokemon.name = pokeDetails.name
-
-    const types = pokeDetails.types.map((typeSlot) => typeSlot.type.name)
-    const [type_main] = types
-
-    pokemon.types = types
-    pokemon.type_main = type_main
-
-    pokemon.base_exp = pokeDetails.base_experience
-    pokemon.height = pokeDetails.height
-    pokemon.weight = pokeDetails.weight
-
-    const abilities = pokeDetails.abilities.map((abilitySlot) => abilitySlot.ability.name)
-
-    pokemon.abilities = abilities
-
-    return pokemon
-}
-
- pokeShow.getDetails = async (id_poke) => {
-    const url = `https://pokeapi.co/api/v2/pokemon/${id_poke}/`
-    return fetch(url)
-                .then((response)=>response.json())
-                .then(pokeDetailsToPokemonModel)
 }
 
 function loadDetails(id_poke) {

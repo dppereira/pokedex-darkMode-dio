@@ -34,7 +34,7 @@
 }
 
 .pokemon .name {
-    color: white;
+    color: black;
     text-transform: capitalize;
     margin-bottom: 0.2rem;
 }
@@ -52,12 +52,12 @@
 }
 
 .pokemon .details .types .type {
-    color: white;
+    color: black;
     padding: .2rem .5rem;
     margin: .25rem 0;
     font-size: .9rem;
     border-radius: 1rem;
-    filter: brightness(1.15);
+    filter: brightness(1.27);
     text-align: center;
 }
 
