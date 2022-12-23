@@ -4,4 +4,4 @@
 
 https://github.com/digitalinnovationone/js-developer-pokedex\
 
-O objetivo principal era criar uma página de detalhes para cada pokemon!
+O objetivo principal: Criar uma página de detalhes para cada pokemon!
